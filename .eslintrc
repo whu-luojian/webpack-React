@@ -1,0 +1,12 @@
+{
+    "parser": "babel-eslint",
+    // "extends": "airbnb",
+    "plugins": [
+      "react"
+    ]
+    // "rules": {
+    //     "eslint linebreak-style": ["error", "windows"],
+    //     "react/prefer-stateless-function": "off",
+    //     "indent": ["error", 4]
+    // }
+}

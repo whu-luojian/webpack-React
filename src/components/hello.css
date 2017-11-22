@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 1150px;
+}
+
+.app .app-content {
+    line-height: 20px;
+    color:#f00;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -130px;
+    margin-left: -50px;
+}
+
+/* css以url的形式加载图片测试 */
+.app .app-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin: -100px;
+    background-image: url(../../static/images/react.jpg);
+    background-size: 200px 200px;
+}
+
+/* react组件中以<img>标签的形式加载图片测试 */
+.app .app-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin: -100px;
+}

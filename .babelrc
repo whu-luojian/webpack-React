@@ -1,0 +1,10 @@
+/* 
+    1. 使用 babel-core 和 babel-loader 编译 jsx、es6
+    2. 插件 babel-preset-es2015 用于解析 es6
+    3. 插件 babel-preset-react 用于解析 jsx
+ */
+
+// 设置预设
+{
+    "presets": ["es2015", "react"]
+}
